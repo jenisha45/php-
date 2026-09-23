@@ -3,7 +3,7 @@ $file="first.txt";
 $content="A quick brown fox jumps over the lazy dog";
 if(file_exists($file))
     {
-        $fp=fopen($file,"r");
+        $fp=fopen($file,"r+");
         $data=fread($fp,filesize($file));
         readfile($file);
         echo $data;
