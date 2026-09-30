@@ -1,0 +1,7 @@
+table requirements
+CREATE TABLE foods (
+    name VARCHAR(100),
+    price DECIMAL(10,2),
+    ingredient TEXT,
+    remarks TEXT
+);
